@@ -13,6 +13,7 @@ var ReactDOM = require('react-dom');
 var StorePicker = React.createClass({
 
   render: function () {
+    // Variaveis são escritas normalmente, sendo colocadas entre {}, comentarios dentro de return são complicados e é melhor evitar
     var name = "Gabriel";
     return ( 
       <form action="" className="store-selector">
