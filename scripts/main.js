@@ -14,10 +14,11 @@ var StorePicker = React.createClass({
 
   render: function () {
     // Variaveis são escritas normalmente, sendo colocadas entre {}, comentarios dentro de return são complicados e é melhor evitar
-    var name = "Gabriel";
+    // Ex: var name = "Gabriel"
+    // <h2>Seu nome é {name}</h2>
     return ( 
       <form action="" className="store-selector">
-        <h2>Please enter a store {name}</h2>
+        <h2>Please enter a store</h2>
         <input type="text" ref="storeID" />
         <input type="submit"/>
       </form>
